@@ -1,0 +1,12 @@
+#Data handling
+pandas
+numpy
+#Data visualization
+matplotlib
+seaborn
+plotly
+#Ml model
+scikit-learn
+xgboost
+#Streamlit dashboard building
+Streamlit
