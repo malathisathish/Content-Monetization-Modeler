@@ -1,25 +1,25 @@
-🎬 Content Monetization Modeler
+## 🎬 Content Monetization Modeler
 
 An interactive Streamlit-based predictive dashboard that estimates YouTube Ad Revenue for individual videos based on video performance, user engagement, and contextual metadata.
 This project is designed to empower content creators, media companies, analysts, and marketers with data-driven insights into digital content monetization.
 
-🧠 Problem Statement
+### 🧠 Problem Statement
 
-📝 Note: Clearly understanding the problem statement is the foundation for why this project exists. Since this is an analytical + predictive project aimed at solving real-world challenges faced by YouTube creators and businesses, a well-defined problem statement becomes the key to building meaningful insights.
+ 📝 Note : In my point of view Clearly understanding the problem statement is the foundation for why this project exists. Since this is an analytical + predictive project aimed at solving real-world challenges faced by YouTube creators and businesses, a well-defined problem statement becomes the key to building meaningful insights.
 
 I have divided the problem into two structured sections:
 
-⚠️ The Problem – Highlighting the gaps and challenges in predicting YouTube revenue.
+#### ⚠️ The Problem – Highlighting the gaps and challenges in predicting YouTube revenue.
 
-🎯💡 The Aim (as the Solution) – How this project addresses those gaps using ML + visualization.
+#### 🎯💡 The Aim (as the Solution) – How this project addresses those gaps using ML + visualization.
 
 This approach makes it easier to see the logic within the problem, as the solution lies within the problem itself.
 
-🔴 SECTION A: Problem – The Need to Decode YouTube Revenue Patterns
+#### 🔴 SECTION A: Problem – The Need to Decode YouTube Revenue Patterns
 
 With billions of users and millions of content creators, YouTube has become one of the world’s largest digital platforms. However, predicting how much ad revenue a single video will generate remains a challenge.
 
-📌 Key Challenges:
+##### 📌 Key Challenges:
 
 Revenue Variability Across Content Categories
 
@@ -49,17 +49,17 @@ Uncertainty in Prediction
 
 Creators struggle with business planning because revenue can swing widely even with similar video stats.
 
-✅ Outcome of the Problem:
+##### ✅ Outcome of the Problem:
 
 Creators lack a reliable predictive tool to estimate earnings.
 
 Businesses cannot plan campaigns without understanding expected ROI.
 
-🟢 SECTION B: Aim – A Smart Dashboard to Predict Ad Revenue
+#### 🟢 SECTION B: Aim – A Smart Dashboard to Predict Ad Revenue
 
 This project aims to build, train, and deploy ML models (Linear Regression baseline + Random Forest/XGBoost extensions) to predict YouTube ad revenue and visualize insights in an interactive Streamlit dashboard.
 
-📌 Core Objectives:
+##### 📌 Core Objectives:
 
 Build a Linear Regression model to estimate ad revenue (baseline model).
 
@@ -71,10 +71,10 @@ Compare models with Random Forest, SVR, and XGBoost.
 
 Deploy an interactive Streamlit app for creators and businesses to forecast video revenue.
 
-💡 End Goal:
+##### 💡 End Goal:
 A smart dashboard where users can upload video data → process features → train models → get predicted ad revenue → analyze results interactively.
 
-📌 Project Overview
+### 📌 Project Overview
 
 With this dashboard, you can answer:
 
@@ -85,7 +85,7 @@ With this dashboard, you can answer:
 
 It connects raw CSV data → preprocessing → ML models → visualization in Streamlit.
 
-🎯 Objectives
+### 🎯 Objectives
 
 ♦ To predict YouTube ad revenue (USD) using statistical & ML models.
 ♦ To perform feature engineering on engagement, video length, category, and country.
@@ -93,7 +93,7 @@ It connects raw CSV data → preprocessing → ML models → visualization in St
 ♦ To visualize residuals, error distributions, and performance metrics.
 ♦ To build a Streamlit dashboard for interactive exploration.
 
-🗂️ Dataset Details
+### 🗂️ Dataset Details
 
 The dataset is derived from YouTube video performance logs.
 
@@ -107,7 +107,8 @@ Target Variable → ad_revenue_usd.
 
 ✅ After preprocessing → Encoding (Frequency / Target Encoding) + Scaling → ready for ML models.
 
-📁 Folder Structure
+### 📁 Folder Structure
+
 📦 content-monetization-modeler
 ┣ 📁 data
 ┃ ┣ cleaned_content_monetization_data.csv
@@ -123,7 +124,7 @@ Target Variable → ad_revenue_usd.
 ┣ 📄 utils.py (feature engineering + preprocessing helpers)
 ┣ 📄 train_models.py (model training scripts)
 
-📊 Analysis Scenarios & Insights
+### 📊 Analysis Scenarios & Insights
 
 Video Category: Educational content shows higher CPM → higher ad revenue.
 
@@ -135,7 +136,7 @@ Engagement Metrics: Higher watch completion and engagement rate strongly correla
 
 Seasonality: Q4 (holiday season) consistently drives higher revenue due to ad demand.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Frontend: Streamlit (interactive dashboard), Plotly (visualizations)
 
@@ -147,13 +148,9 @@ Visualization: Seaborn, Matplotlib, Plotly
 
 Environment: Visual Studio Code / Jupyter Notebook
 
-▶️ How to Run the Content Monetization Modeler
+### ▶️ How to Run the Content Monetization Modeler
 
-1️⃣ Clone the repository
-
-git clone https://github.com/your-username/content-monetization-modeler.git
-cd content-monetization-modeler
-
+1️⃣ Load csv file 
 
 2️⃣ (Optional) Create a Virtual Environment
 
@@ -180,7 +177,7 @@ streamlit run streamlit_app/dashboard.py
 6️⃣ Open your browser →
 http://localhost:8501
 
-🔮 Future Enhancements
+### 🔮 Future Enhancements
 
 Deploy as a cloud-based web app (Heroku/AWS).
 
@@ -190,7 +187,7 @@ Introduce deep learning models (LSTMs/Transformers) for advanced prediction.
 
 Generate automated recommendation reports for creators.
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 
 YouTube Analytics API – for video performance insights.
 
@@ -200,7 +197,9 @@ Streamlit – for dashboard development.
 
 Pandas & NumPy – for data wrangling.
 
-✅ Conclusion
+Guvi mentors for supporting me during project.
+
+### ✅ Conclusion
 
 This project bridges the gap between video analytics and predictive monetization by combining ML models, feature engineering, and dashboards.
 
@@ -214,11 +213,10 @@ Make data-driven monetization decisions.
 
 ✨ “Data turns creativity into strategy — helping creators monetize smarter.”
 
-👩‍💻 Author
-Janani | Data Science Enthusiast 🎓
+### 👩‍💻 Author
+Malathi.y | Data Science Enthusiast 🎓
 
 💬 Feedback? Contributions? Questions? Let’s connect!
-📧 Email: your-email@example.com
+📧 Email: malathisathish2228@gmail.com
 
-🔗 LinkedIn: your-linkedin
-💻 GitHub: your-github
+💻 GitHub: "https://github.com/malathisathish"
