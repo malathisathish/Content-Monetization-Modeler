@@ -88,9 +88,13 @@ It connects raw CSV data → preprocessing → ML models → visualization in St
 ### 🎯 Objectives
 
 ♦ To predict YouTube ad revenue (USD) using statistical & ML models.
+
 ♦ To perform feature engineering on engagement, video length, category, and country.
+
 ♦ To train and evaluate Linear Regression, Random Forest, XGBoost.
+
 ♦ To visualize residuals, error distributions, and performance metrics.
+
 ♦ To build a Streamlit dashboard for interactive exploration.
 
 ### 🗂️ Dataset Details
@@ -117,12 +121,13 @@ Target Variable → ad_revenue_usd.
 ┃ ┣ linear_regression_model.pkl
 ┃ ┣ random_forest_model.pkl
 ┃ ┗ xgboost_model.pkl
+┃ ┗ svr_model.pkl
+┃ ┗ decision_tree_model.pkl
 ┣ 📁 streamlit_app
-┃ ┗ dashboard.py
+┃ ┗ app.py
 ┣ 📄 requirements.txt
 ┣ 📄 README.md
-┣ 📄 utils.py (feature engineering + preprocessing helpers)
-┣ 📄 train_models.py (model training scripts)
+┣ content_monetization_ipynb
 
 ### 📊 Analysis Scenarios & Insights
 
@@ -220,3 +225,4 @@ Malathi.y | Data Science Enthusiast 🎓
 📧 Email: malathisathish2228@gmail.com
 
 💻 GitHub: "https://github.com/malathisathish"
+
